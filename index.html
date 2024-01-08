@@ -10,41 +10,130 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
-    <!-- <header class="header over">
-        <nav class="header__menu">
-        <ul class="header__links-list ">
+    <header class="header">
+      <nav class="header__menu">
+        <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">
-            <a class="header__link_active">главная</a></li>
+            <a class="header__link_active">главная</a>
+          </li>
           <li class="header__links-list-item">
-            <a class="header_link" href="#0">посмотреть лоты</a></li>
+            <a class="header_link" href="#0">посмотреть лоты</a>
+          </li>
           <li class="header__links-list-item">
-            <a class="header_link" href="#0">об аукционе</a></li>
+            <a class="header_link" href="#0">об аукционе</a>
+          </li>
         </ul>
       </nav>
 
       <a class="header__logo">
-        <img src="images/logo-black.svg" alt="логотип" class="header__logo-image">
+        <img
+          src="images/logo-black.svg"
+          alt="логотип"
+          class="header__logo-image"
+        />
       </a>
 
       <div class="header_contacts">
         <ul class="header_contacts-list">
-          <li><a href="tel:+99995555555" class="header_link">+9 999 555 5555</a></li>
-          <li><a href="mailto:info@sobaka.ge" class="header_link">info@sobaka.ge</a></li>
-          <li><address class="address">наб. Принсенграхт 263-265,<br> Амстердам</address></li>
+          <li>
+            <a href="tel:+99995555555" class="header_link">+9 999 555 5555</a>
+          </li>
+          <li>
+            <a href="mailto:info@sobaka.ge" class="header_link"
+              >info@sobaka.ge</a
+            >
+          </li>
+          <li>
+            <address class="address">
+              наб. Принсенграхт 263-265,<br />
+              Амстердам
+            </address>
+          </li>
         </ul>
       </div>
-    </header> -->
-    <main class="main">
-      <div class="cover">
+    </header>
+    <main>
+      <section class="cover">
         <div class="overlay"></div>
-          <h1 class="main__title">
-            <span class="main__title_ono"><span class="main__title_o">о</span><span class="main__title_no">но</span></span>
-            <span class="main__title_tebe"><span class="main__title_te">те</span><span class="main__title_be">бе</span></span>
-            <span class="main__title_nado"><span class="main__title_n">н</span><span class="main__title_ad">ад</span><span class="main__title_o">о</span></span>
-          </h1>
-      </div>
-      <div class="lots"></div>
-      <div class="about"></div>
+        <h1 class="main__title">
+          <span class="main__title_ono aligned-text"
+            ><span class="main__title_o">о</span
+            ><span class="main__title_no">но</span></span
+          >
+          <span class="main__title_tebe aligned-text_center"
+            ><span class="main__title_te">те</span
+            ><span class="main__title_be">бе</span></span
+          >
+          <span class="main__title_nado aligned-text_right"
+            ><span class="main__title_n">н</span
+            ><span class="main__title_ad">ад</span
+            ><span class="main__title_o no-letter-spacing">о</span></span
+          >
+        </h1>
+        <div class="cover__description">
+          <p class="cover__description-text">
+            Аукцион вещей, <span class="letter-spacing-24-2">в</span>которые
+            никто не верил
+          </p>
+          <button class="bet-button" type="button">Сделать ставку</button>
+        </div>
+      </section>
+      <section class="lots">
+        <h2 class="lots__heading">Лоты</h2>
+        <ul class="lots__card-list">
+          <li class="lots__card-list-item">
+            <a class="card-link" href="#">
+              <article class="card card_type_film">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
+                <p class="card__text">
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                  ставка, если бы вы не знали, что режиссёр — Пол Томас
+                  Андерсон?
+                </p>
+              </article>
+            </a>
+          </li>
+          <li class="lots__card-list-item">
+            <a class="card-link" href="#">
+              <article class="card card_type_book">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Книга, где описан один скучный день из жизни рекламного агента
+                </h3>
+                <p class="card__text">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
+                  с переходами на древнеанглийский. В ней одновременно
+                  рассказывается о 16 июня 1904 года и об истории литературы,
+                  начиная с античных времён. И это всё накладывается на
+                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                  Джеймса Джойса?
+                </p>
+              </article>
+            </a>
+          </li>
+          <li class="lots__card-list-item">
+            <a class="card-link" href="#">
+              <article class="card card_type_picture">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <p class="card__text">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                  котиков… Сколько бы вы на такое поставили, если бы не знали,
+                  что это — одна из революционных работ Кандинского?
+                </p>
+              </article>
+            </a>
+          </li>
+        </ul>
+        <a class="lots__look-more-link" href="#">посмотреть больше</a>
+      </section>
+      <section class="about"></section>
     </main>
     <footer class="footer"></footer>
   </body>
