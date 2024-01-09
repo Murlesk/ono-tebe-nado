@@ -229,6 +229,7 @@
   width: 334px;
   height: 563px;
   flex-shrink: 1;
+  flex-grow: 1;
 }
 
 .card-link {
