@@ -242,8 +242,6 @@
 }
 
 .card {
-  width: 334px;
-  height: 563px;
   position: relative;
   z-index: 1;
   display: flex;
@@ -299,11 +297,9 @@
   line-height: normal;
   border-bottom: 1px solid black;
   margin-left: 40px;
-}
-
-.lots__look-more-link {
   text-decoration: none;
 }
+
 /* Конец описания стилей для секции MAIN */
 
 /* Начало описания стилей для секции ABOUT */
