@@ -1,4 +1,4 @@
-/* Начало классов для секции HEADER */
+/* Начало описания стилей для секции HEADER */
 .header {
   margin: 92px 24px 96px 24px;
   display: grid;
@@ -73,9 +73,9 @@
   text-decoration: none;
 }
 
-/* Конец классов для секции HEADER */
+/* Конец описания стилей для секции HEADER */
 
-/* Начало классов для секции MAIN */
+/* Начало описания стилей для секции MAIN */
 
 .cover {
   background-image: url(../images/lotus-flower.png);
@@ -304,9 +304,9 @@
 .lots__look-more-link {
   text-decoration: none;
 }
-/* Конец классов для секции MAIN */
+/* Конец описания стилей для секции MAIN */
 
-/* Начало классов для секции ABOUT */
+/* Начало описания стилей для секции ABOUT */
 
 .about {
   display: grid;
@@ -354,9 +354,9 @@
   margin-bottom: 25px;
 }
 
-/* Конец классов для секции ABOUT */
+/* Конец описания стилей для секции ABOUT */
 
-/* Начало классов для секции FOOTER */
+/* Начало описания стилей для секции FOOTER */
 
 .footer {
   display: grid;
@@ -409,4 +409,4 @@
   height: 48px;
 }
 
-/* Конец классов для секции FOOTER */
+/* Конец описания стилей для секции FOOTER */
